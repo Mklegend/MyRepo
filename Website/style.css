@@ -1,0 +1,51 @@
+body{
+    background-image: url("images/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* ----------------------------------------------- */
+
+#login_form{
+    display: flex;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border: ridge 2px rgb(83, 206, 236);
+    border-radius: 5px;
+    width: 400px;
+    padding: 0px 0px 30px 0px;
+    margin: 180px 100px 0px 700px;
+    flex: 1;
+    color: white;
+}
+/* ----------------------------------------------------- */
+
+
+header{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#navbar{
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    margin: 0px 0px 0px 20px;
+}
+.nav-item{
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px 20px 0px 0px;
+    color:rgb(83, 206, 236);
+}
+a:hover{
+    color: white;
+}
+
+
+
+
+
+
